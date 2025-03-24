@@ -17,9 +17,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <div style="position: fixed; left: 10px; bottom: 50px; transform: scaleX(-1)">
   <img src="images/WoodBuffalo.png" alt="Floating Image" width="90">
-</div>
+</div></br>
 
-</br>
+
 
 <center>
 <img src="images/buffalo_banff.jpg" style="width:100%; height:auto;">
