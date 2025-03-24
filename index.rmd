@@ -219,9 +219,11 @@ We want to thank Dr. Robin Young and the students of BIOL_O 430N Science Communi
   <a href="mailto:Bracher@ualberta.ca" style="font-size: 24px; text-decoration: none; color: black;">
     <i class="fas fa-envelope" style="font-size: 32px;"></i> Email
   </a><br>
+  <!--
   <a href="https://instagram.com/remingtonbracher/" style="font-size: 24px; text-decoration: none; color: black;">
     <i class="fab fa-instagram" style="font-size: 32px;"></i> Instagram
   </a><br>
+  -->
   <a href="https://www.linkedin.com/in/remington-bracher-95b07113b/" style="font-size: 24px; text-decoration: none; color: black;">
     <i class="fab fa-linkedin" style="font-size: 32px;"></i> LinkedIn
   </a>
