@@ -1,0 +1,5 @@
+name: "Remington Bracher"
+output_dir: 
+output:
+  html_document:
+    theme: yeti
