@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>index.knit</title>
+
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="#home">Home</a>
+</li>
+<li>
+  <a href="#about-us">About Us</a>
+</li>
+<li>
+  <a href="#contact">Contact</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://www.linkedin.com/in/remington-bracher-95b07113b">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://instagram.com/remingtonbracher/">
+    <span class="fa fa-instagram fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SY4B4LS2VF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SY4B4LS2VF');
+</script>
+<header>
+<div class="wrap">
+<p><a id="home"></a> </br> <!-- navigation header --></p>
+<div style="position: fixed; right: 10px; top: 100px;">
+<p><img src="images/PlainsBuffalo.png" alt="Floating Image" width="100"></p>
+</div>
+<div
+style="position: fixed; left: 10px; bottom: 50px; transform: scaleX(-1)">
+<p><img src="images/WoodBuffalo.png" alt="Floating Image" width="90"></p>
+</div>
+<p></br></p>
+<center>
+<img src="images/buffalo_banff.jpg" style="width:100%; height:auto;">
+<div style="text-align: right;">
+<p>
+<a href="https://www.flickr.com/photos/80365963@N00/54034074226">CC BY
+2.0 Jason Woodhead</a>
+</p>
+<div>
+<p></br></p>
+<p></br></p>
+<div style="text-align: center;">
+<img src="images/PlainsBuffalo.png" width="60px" style="transform: scaleX(-1); vertical-align: middle;">
+<img src="images/WoodBuffalo.png" width="55px" style="vertical-align: middle;"><br />
+<span style="text-align: center;">
+<center>
+<h1>
+<strong>Buffalo, </strong><br />
+<strong>Iinnii, Tatanga, Tatanka, Paskwâwimostos, Xaniti,
+</strong><br />
+<strong>Qwisp, Kamquq̓ukuǂ ʔiyamu, Iyanee’,
+heneeceeno’,ésevone,</strong><br />
+<strong>Mushkode Bizhikim, Q’weyqway, Hii3einoon, boyzhan,
+ʔíítaanɔ́ɔ́nʔi,</strong><br />
+<strong>Bison</strong><br />
+
+<h1>
+<center>
+</span>
+<img src="images/PlainsBuffalo.png" width="60px" style="transform: scaleX(-1); vertical-align: middle;">
+<img src="images/WoodBuffalo.png" width="55px" style="vertical-align: middle;">
+</div>
+<p></br></p>
+<span>
+<center>
+<strong>‘Buffalo’ is a species of cultural significance and non-human
+relative to many Indigenous Nations. It is capitalized to represent its
+status and imporatance.</strong>
+</center>
+<br />
+
+<center>
+<em>“We see Buffalo and many of our four-legged relatives as
+equals.”</em> -Remington Bracher
+</center>
+<p></span></br></p>
+<div style="text-align: justify;">
+I offer this positionality statement as a recognition of my lived
+experiences, responsibilities, background knowledge, and cultural
+grounding that shape my approach to this research. I am a Nêhiyaw (Cree)
+member of the Muskoday First Nation (MFN). On my mother’s side of the
+family comes from MFN through her late father, Lloyd Bear, and her late
+mother, Eileen Spence, from Nisichawayasihk Cree Nation (formerly known
+as Nelson House First Nation), while my father’s side comes from a mixed
+European heritage. I am also a land user who has spent the better part
+of the last 29 years hunting, fishing, and trapping all over western
+Canada. My upbringing was guided by my father’s passion for the
+outdoors, which instilled in me a profound respect for the land and
+water along with the fish and wildlife that call it home. My
+relationship with the natural world is not just an academic endeavour
+but a deeply personal and spiritual journey that has shaped my life and
+identity from a young age. I was raised in a household where hunting,
+fishing, and trapping were not only sustenance-based activities but also
+acts of cultural preservation. Through these experiences, I have seen
+Bison not only as an ecological and cultural keystone species but also
+as a relative whose presence is intertwined with Indigenous identities
+across Turtle Island. - Remington Bracher
+<div>
+<p></br></p>
+<p><strong>Is it Buffalo or Bison?</strong></p>
+<p>Bison are commonly known as Buffalo. Bison and Buffalo are the same
+animal. The words are often used interchangeably. You can say Buffalo is
+the common name and Bison is the scientific name (<em>Bison bison</em>).
+Buffalo are the largest land mammal found in North America. There are
+two types of Buffalo in Canada, the Wood Buffalo and the Plains
+Buffalo.</p>
+<p></br></p>
+<p><strong>Wood Buffalo vs Plains Buffalo</strong></p>
+<p>Currently, <strong>Wood Buffalo</strong> (<em>Bison bison bison</em>)
+is listed as Threatened and classified as ‘wildlife’ only in British
+Columbia, Alberta, Manitoba, and the Northwest Territories. Meanwhile,
+<strong>Plains Buffalo</strong> (<em>Bison bison athabascae</em>) is
+listed as ‘Special Concern’ and are not protected under the Species at
+Risk Act (SARA) in Canada. They are only classified as ‘wildlife’ in
+British Columbia and Saskatchewan and as ‘livestock’ in Alberta and
+Manitoba.</p>
+<p>The Wood Buffalo is larger compared to the Plains Buffalo.</p>
+<div style="text-align: center;">
+<img src="images/cosewic_2014_bison_report_figure1.png" width="50%" style="margin-right: 20px;">
+<p>
+Drawing of male Wood Buffalo (top) vs Plains Buffalo (bottom) <a
+href="https://publications.gc.ca/collections/collection_2014/ec/CW69-14-379-2014-eng.pdf">COSEWIC
+2014, p. 5, figure 1</a>
+</p>
+</div>
+<p></br></p>
+<div style="display: flex; justify-content: center;">
+<!-- left image -->
+<figure style="margin-right: 20px;">
+<img src="images/cosewic_2014_bison_report_figure2_males.png" width="93%">
+<figcaption>
+Male Wood Buffalo (top) vs Plains Buffalo (bottom) <br> <a
+href="https://publications.gc.ca/collections/collection_2014/ec/CW69-14-379-2014-eng.pdf">COSEWIC
+2014, p. 6, figure 2</a>
+</figcaption>
+</figure>
+<!-- right image -->
+<figure>
+<img src="images/cosewic_2014_bison_report_figure3_females.png" />
+<figcaption>
+Female Wood Buffalo (top) vs Plains Buffalo (bottom) <a
+href="https://publications.gc.ca/collections/collection_2014/ec/CW69-14-379-2014-eng.pdf">COSEWIC
+2014, p. 7, figure 3</a>
+</figcaption>
+</figure>
+</div>
+<p></br></p>
+<p></br></p>
+<center>
+<h1>
+<strong>History</strong>
+</h1>
+</center>
+<p>Bison used to roam North America in the tens of millions.</p>
+<div style="text-align: center;">
+<img src="images/cosewic_2014_bison_report_figure4.png" width="80%"/>
+<p>
+Pre-colonization distribution of Buffalo in North America <a
+href="https://publications.gc.ca/collections/collection_2014/ec/CW69-14-379-2014-eng.pdf">COSEWIC
+2014, p. 12, figure 4</a>
+<p>
+</div>
+<p></br></p>
+<p></br></p>
+<div style="text-align: center;">
+<img src="images/Bison_skull_pile_edit.jpg" width="80%"/>
+<p>
+Photographer unknown (1892). Pile of American Bison skulls waiting to be
+ground for fertilizer. <a
+href="https://en.wikipedia.org/wiki/File:Bison_skull_pile-restored.jpg">Wikimedia
+Commons</a>
+<p>
+</div>
+<p></br></p>
+<center>
+<em>“Kill every buffalo you can! Every buffalo dead is an Indian
+gone.”</em> -Lieutenant Colonel Dodge <a
+href="https://babel.hathitrust.org/cgi/pt?id=hvd.hn5kck&amp;seq=11">(Butler
+1913)</a>
+</center>
+<p><br />
+</p>
+<!-- 
+The near extinction of the American Bison was a way to resolve the "Indian Problem" by the US government. 
+-->
+<center>
+<em>“With my cavalry and carbined artillery encamped in the front, I
+wanted no other occupation in life than to ward off the savage and kill
+off his food until there should no longer be an Indian frontier in our
+beautiful country”</em><br />
+-Lieutenant-General John M. Schofield <a
+href="http://catalog.hathitrust.org/Record/000603669">(Schofield
+1897)</a>
+</center>
+<p></br> </br></p>
+<center>
+<h1>
+<strong>Reintroduction Program</strong>
+</h1>
+</center>
+<p>The Plains Bison was completely lost in Canada until a herd (Elk
+Island herd) was brought from Montana. This was regarded as one of the
+biggest conservation initiative that Canada has ever done. It started
+from 34 individuals. The most recent one was the <a
+href="https://publications.gc.ca/collections/collection_2020/pc/R64-568-2019-eng.pdf">Banff
+National Park Bison Reintroduction Program</a>. In 2017, 16 Plains
+Buffalo was brought to Banff National Park. As of 2024, there are over
+130 individuals roaming the park. For information, check out the <a
+href="https://parks.canada.ca/pn-np/ab/banff/info/gestion-management/bison/blog">Parks
+Canada Bison blog</a>.</p>
+</br> <img src="images/Stroupe_et_al_2022_figure1.png"/>
+<p>
+Buffalo historical lineages <a
+href="https://www.nature.com/articles/s41598-022-09828-z#Sec2">(Stroupe
+et al. 2022)</a>
+<p>
+<p></br> </br></p>
+<center>
+<h2>
+<strong>Why Buffalo?</strong>
+</h2>
+</center>
+<p><span style="text-align: center;"> <em>“…coming from a ᓀᐦᐃᔭᐤ
+(nêhiyaw, Cree) background, our species was Bison…There’s so many
+different meanings. Like for example many ceremonies, even my own
+wedding, I had a Buffalo skull present in every ceremony. In our
+culture, it’s regarded as like one of the greatest teachers, and like
+high of the highest renowned kind of spiritual beings. So you have that
+aspect of it that kind of plays into the culture for me also.”</em>
+-Remington Bracher <span/></p>
+<p></br></p>
+<div style="text-align: center;">
+<img src="images/buffaloe_hunting_1844_toronto_public_library.jpg" width="80%">
+<p>
+Buffalos Hunting <a
+href="https://www.flickr.com/photos/43021516@N06/7420476946">Toronto
+Public Library Special Collections</a>
+</p>
+</div>
+<p></br></p>
+<p>Since time immemorial, Indigenous communities across North America
+have relied on wildlife to support their ways of life. Regionally
+abundant species that are fundamental to communities’ diets, materials,
+medicine, art, and spiritual practices have been referred to as Cultural
+Keystone Species (CKS) <a
+href="https://dx.doi.org/10.5751/ES-00669-090301">(Garibaldi &amp;
+Turner, 2004)</a>.</p>
+<p>The loss of Buffalo has impacted Indigenous food sovereignty and
+these communities’ cultural practices, language, and knowledge
+transmission (Lamb et al., 2023). As conservation values, ethics, and
+initiatives started to recognize the importance of Buffalo on the
+landscape, we also witnessed the significance of National Parks in the
+species conservation story.</p>
+<!-- 
+These parks have played a pivotal role in Bison conservation (Boyd & Gates, 2004) and have now reintroduced Bison in seven national parks across western Canada. 
+
+
+
+In some cases, such as Banff National Park, these reintroductions have espoused reconciliation as an underlying motivation to 'bring back the bison.' At the same time, Canada's national park agencies participate in the systematic removal and exclusion of Indigenous communities from their traditional territories and practices (Vranich, 2023), thus severing their connection to the land and impacting generations of Indigenous people in the process. Historic parks and protected areas legislation was rooted in colonial beliefs that fundamentally separated people from the land, reinforcing the outdated ideas of pristine wilderness or fortress conservation. 
+
+The federal government has committed to reconciliation with Indigenous Peoples through renewed, nation-to-nation and government-to-government relationships based on the recognition of rights, respect, co-operation and partnership (GoC; CIRNAC, 2024). However, reconciliation requires more than rebalancing the relationship between Indigenous and Non-indigenous people across Canada it also requires a shift in governing power structures and decision-making processes which decides what knowledge is recognized as valid (Nadasdy 2003). A change could be on the horizon; Parks Canada's new policy on Indigenous Stewardship, The Buffalo Treaty and the implementation of the Declaration on the Rights of Indigenous People in Canada could shift current management of wildlife and National Parks through the recognition of treaty rights towards a more rights-based approach and a more Indigenized model of wildlife conservation (Hessami et al., 2021). 
+
+</br>
+
+
+
+<center> <h1> **Restoring Cultural Meaningful Hunting of Buffalo in National Parks** </h1> </center>
+
+In contemporary wildlife literature, an emerging Indigenous research paradigm emphasizes braiding of Traditional Ecological Knowledge with western science (Wilson 2008, Lamb et al., 2023, Hessami et al, 2021); recognition of Indigenous Food Sovereignty to community health (Ray et al., 2019); and how co-governance of wildlife resource is essential to Indigenizing the North American model of Wildlife Conservation (Hessami et al., 2021). TEK research highlights the interconnected ecological relationships between people, wildlife, plants, and land stewardship practices such as hunting and cultural fire all influence ecological patterns across the landscape (Nelson & Shilling, 2018; Goode et al., 2022). Discussions on food sovereignty underscore the health benefits of traditional foods, the sustainability of wildlife populations, and the importance of Indigenous-led stewardship and community involvement (Abdul et al., 2024). Meanwhile, cooperative management approaches, such as Parks Canada Advisory Circles and Indigenous Guardians programs, are increasingly recognized as essential tools for reconciliation, self-determination, and collaborative conservation efforts across Canada. 
+
+
+
+<center> <h1> **Braiding Traditional Ecology knowledge and Western Science** </h1> </center>
+
+While reconciliation is a focus for the Canadian government, it should also be at the forefront of the minds of natural resource researchers in academia (Wong et al., 2020). Reconciliation between research institutions and Indigenous communities addresses years of colonial practices that were extractive in nature, where sacred knowledge was published without the consent of communities and relabeled as a "new" scientific discovery. In this context, reconciliation requires exploring opportunities for data sovereignty and building relationships based on mutual respect and reciprocity so that both Indigenous communities and scientists benefit from publicly funded research (McGregor, 2017). As natural resource scientists, we also have the opportunity to foster and mentor future generations of Indigenous researchers (Wong et al., 2020), given the strong connections between Indigenous peoples and researchers in relation to the land and ecosystems (Berkes, 2017; Ban et al., 2018).
+
+</br>
+</br>
+</br>
+
+<left>  <h1>  How to get involved </h1>  </left> 
+
+-->
+<p><br></p>
+<left>
+<h1>
+<span id="about-us"></span> About Us
+</h1>
+<p></left> <!-- navigation header --></p>
+<p>ᑕᓂᓯ (tân’si”, hello), my name is Remington Bracher. I am currently a
+Master of Science student at the University of British Columbia at
+Okanagan campus, which is located on the unceded and ancestral land of
+the Syilx Okanagan First Nation in Dr. Adam Ford’s Wildlife Restoration
+Ecology (WiRE) Lab. My academic background includes a Bachelor of
+Science in Environmental and Conservation Sciences from the University
+of Alberta and a technical diploma in Conservation Biology from the
+Northern Alberta Institute of Technology. In addition to formal
+education, my knowledge has been shaped by my experiences as a land user
+and the cultural teachings I received throughout my life. As an
+Indigenous researcher, I recognize that my research is not just a
+contribution to academia but also serves the needs and priorities of
+Indigenous communities working towards self-determination. </br></p>
+<p>สวัสดีค่ะ (sawadee ka, hello), my name is Aimee Chhen. I am of Chinese
+descent and of Canadian and Thai Nationality. I am a Master of Science
+student in Dr. Michael Noonan’s Quantitative Ecology Lab at the
+University of British Columbia at Okanagan campus (UBCO) which is
+located on the unceded and ancestral land of the Syilx Okanagan First
+Nation. I have a Bachelor of Science in Zoology from UBCO and my
+research focus is in behavioural ecology. I am currently studying the
+behavioural response of mountain goats in Cathedral Provincial Park to
+wildfire during the Crater Creek wildfire in 2023. My contribution to
+Remington’s project has been creating and developing this website for
+his work from a science communication perspective with my fellow team
+member, Hunter, for our BIOL_O 430N course.</p>
+Hello, my name is Hunter. I come from a settler family of Swedish and
+Scots/Irish descent, and grew up in both southern Alberta and northern
+Saskatchewan. I am currently an undergraduate student pursuing a
+Bachelor of Science in Biology at the University of British Columbia
+Okanagan (UBCO), which is located on the unceded and ancestral land of
+the Syilx Okanagan First Nation. My contribution to Remington’s project
+has been creating and developing the social media content for his work
+from a science communication perspective with my fellow team member,
+Aimee, for our BIOL_O 430N course.
+<div>
+<p><br></p>
+<center>
+<h3>
+Acknowledgements
+</h3>
+</center>
+<p>We want to thank Dr. Robin Young and the students of BIOL_O 430N
+Science Communication in Digital Media (2025) at the University of
+British Columbia, Okanagan for their valuable insight in communicating
+this work through digital media. Their feedback were instrumental in
+refining on how to present this works through digital platforms improved
+accessibility and engagement for a broad and diverse audiences.</p>
+<p><br> <br></p>
+<left>
+<h1>
+<span id="contact"></span> Contact
+</h1>
+<p></left> <!-- navigation header --></p>
+<p><br></p>
+<div class="social-links">
+<p><a href="mailto:Bracher@ualberta.ca" style="font-size: 24px; text-decoration: none; color: black;">
+<i class="fas fa-envelope" style="font-size: 32px;"></i> Email </a><br>
+<a href="https://www.linkedin.com/in/remington-bracher-95b07113b/" style="font-size: 24px; text-decoration: none; color: black;">
+<i class="fab fa-linkedin" style="font-size: 32px;"></i> LinkedIn
+</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
