@@ -28,7 +28,5 @@ left:
 right:
   - icon: fa-linkedin fa-lg
     href: https://www.linkedin.com/in/remington-bracher-95b07113b
-  # - icon: fa-instagram fa-lg
-  #   href: https://instagram.com/remingtonbracher/
-  - icon: fa-envelope fa-lg
-    href: "mailto:Bracher@ualberta.ca"
+  - icon: fa-instagram fa-lg
+    href: https://instagram.com/remingtonbracher/
