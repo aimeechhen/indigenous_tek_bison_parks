@@ -5,7 +5,7 @@ left:
     href: "#home"
   # - text: "Project"
   #   menu:
-  #      - text: "Land Guardians"
+  #      - text: "Restoring Cultural Meaningful Hunting of Buffalo in National Parks"
   #        href: ./project1.html
   #      - text: "Traditional ecological knowledge (TEK)"
   #        href: ./project2.html
@@ -26,6 +26,8 @@ left:
     
 
 right:
+  - icon: fa-instagram fa-lg
+    href: https://www.instagram.com/buffaloguarding
   - icon: fa-linkedin fa-lg
     href: https://www.linkedin.com/in/remington-bracher-95b07113b
   - icon: fa-envelope fa-lg

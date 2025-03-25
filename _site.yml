@@ -3,5 +3,3 @@ output_dir: "."
 output:
   html_document:
     theme: yeti
-    includes:
-      in_header: "google_analytic_tag.html"
