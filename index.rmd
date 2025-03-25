@@ -1,6 +1,9 @@
 ---
 title: ""
-output: html_document
+output:
+  html_document:
+    includes:
+      in_header: "google_analytic_tag.html"
 ---
 
 ```{r setup, include=FALSE}
@@ -155,7 +158,9 @@ The federal government has committed to reconciliation with Indigenous Peoples t
 
 </br>
 
+<left>  <h1> <span id="project"></span> Project </h1>  </left> <!-- navigation header -->
 
+<!-- 
 
 <center> <h1> **Restoring Cultural Meaningful Hunting of Buffalo in National Parks** </h1> </center>
 
@@ -171,9 +176,11 @@ While reconciliation is a focus for the Canadian government, it should also be a
 </br>
 </br>
 
+-->
+
 <left>  <h1>  How to get involved </h1>  </left> 
 
--->
+
 
 <br>
 
@@ -206,6 +213,9 @@ We want to thank Dr. Robin Young and the students of BIOL_O 430N Science Communi
   <a href="mailto:Bracher@ualberta.ca" style="font-size: 24px; text-decoration: none; color: black;">
     <i class="fas fa-envelope" style="font-size: 32px;"></i> Email
   </a><br>
+    <a href="https://www.instagram.com/buffaloguarding" style="font-size: 24px; text-decoration: none; color: black;">
+    <i class="fab fa-instagram" style="font-size: 32px;"></i> Instagram
+    </a><br>
   <a href="https://www.linkedin.com/in/remington-bracher-95b07113b/" style="font-size: 24px; text-decoration: none; color: black;">
     <i class="fab fa-linkedin" style="font-size: 32px;"></i> LinkedIn
   </a>
