@@ -176,14 +176,21 @@ While reconciliation is a focus for the Canadian government, it should also be a
 </br>
 </br>
 
--->
-
 <left>  <h1>  How to get involved </h1>  </left> 
 
-
+-->
 
 <br>
+<br>
 
+<center>  <h1>  **Stay tuned!**  <h1> </center>
+<center>  <h1> **More stuff will be released in the coming days** 😊 </h1> </center> 
+
+<center> <a title="Eadweard Muybridge, Waugsberg, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Muybridge_Buffalo_galloping.gif"><img width="256" alt="Animated sequence of a American bison galloping" src="https://upload.wikimedia.org/wikipedia/commons/2/24/Muybridge_Buffalo_galloping.gif?20090930083349"></a> </center>
+
+<br>
+<br>
+<br>
 
 <left>  <h1> <span id="about-us"></span> About Us </h1>  </left> <!-- navigation header -->
 
@@ -202,6 +209,9 @@ We want to thank Dr. Robin Young and the students of BIOL_O 430N Science Communi
 <br>
 
 
+<center>  <h1>  We would love to hear from you! </h1>  </center> 
+
+<center> <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeJZ-pQGhHi0iW-pGtGM45dRznfE6dHo5or0gEINIm6UyGv2w/viewform?embedded=true" width="640" height="382" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> </center> 
 
 
 
