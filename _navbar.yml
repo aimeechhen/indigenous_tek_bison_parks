@@ -3,22 +3,16 @@ title: ""
 left:
   - text: "Home"
     href: "#home"
-  # - text: "Project"
-  #   menu:
-  #      - text: "Restoring Cultural Meaningful Hunting of Buffalo in National Parks"
-  #        href: ./project1.html
+  - text: "Project"
+    menu:
+       - text: "Restoring Cultural Meaningful Hunting of Buffalo in National Parks"
+         href: "#cultural-hunting"
   #      - text: "Traditional ecological knowledge (TEK)"
   #        href: ./project2.html
   #      - text: "Buffalo restoration"
   #        href: ./project3.html
   # - text: "Research"
   #   href: "#RESEARCH"
-  # - text: "Publications"
-  #   href: "#PUBLICATIONS"
-  # - text: "News"
-  #   href: "#NEWS"
-  # - text: "Opportunities"
-  #   href: "#OPPORTUNITIES"
   - text: "About Us"
     href: "#about-us"
   - text: "Contact"
@@ -28,7 +22,7 @@ left:
 right:
   - icon: fa-instagram fa-lg
     href: https://www.instagram.com/buffaloguarding
-  - icon: fa-linkedin fa-lg
-    href: https://www.linkedin.com/in/remington-bracher-95b07113b
+  - icon: fa-youtube fa-lg
+    href: https://www.youtube.com/@RemingtonBracher
   - icon: fa-envelope fa-lg
     href: "mailto:Bracher@ualberta.ca"
