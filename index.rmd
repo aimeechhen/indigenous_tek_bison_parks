@@ -35,11 +35,11 @@ knitr::opts_chunk$set(echo = TRUE)
  <img src="images/WoodBuffalo.png" width="55px" style="vertical-align: middle;"> \
 <span style="text-align: center;">
 <center> <h1>
-**Buffalo, ** \
+[**Buffalo, ** \
 **Iinnii, Tatanga, Tatanka, Paskwâwimostos, Xaniti, ** \
 **Qwisp, Kamquq̓ukuǂ ʔiyamu, Iyanee’, heneeceeno',ésevone,** \
 **Mushkode Bizhikim, Q’weyqway, Hii3einoon, boyzhan, ʔíítaanɔ́ɔ́nʔi,**\
-**Bison** \
+**Bison**](https://www.buffalotreaty.com/) \
 <h1> <center>
 </span>
 <img src="images/PlainsBuffalo.png" width="60px" style="transform: scaleX(-1); vertical-align: middle;"> 
@@ -59,7 +59,7 @@ I offer this positionality statement as a recognition of my lived experiences, r
 
 **Is it Buffalo or Bison?**
 
-Bison are commonly known as Buffalo. Bison and Buffalo are the same animal. The words are often used interchangeably. You can say Buffalo is the common name and Bison is the scientific name (*Bison bison*). Buffalo are the largest land mammal found in North America. There are two types of Buffalo in Canada, the Wood Buffalo and the Plains Buffalo. 
+Bison are commonly known as Buffalo. Bison and Buffalo are the same animal. The words are often used interchangeably. You can say Buffalo is the common name and Bison is the scientific name (*Bison bison*). Buffalo are the largest land mammal found in North America. Bisons weigh about 14-23 kg (30-50 lbs) when they are born. They can grow to be as heavy as a small car. Buffalo are not as tall as a moose, but they are heavier than a moose! So, don't take on a Buffalo. They have horns too. There are two types of Buffalo in Canada, the Wood Buffalo and the Plains Buffalo. 
 
 </br>
 
@@ -68,6 +68,18 @@ Bison are commonly known as Buffalo. Bison and Buffalo are the same animal. The 
 Currently, **Wood Buffalo** (*Bison bison bison*) is listed as Threatened and classified as 'wildlife' only in British Columbia, Alberta, Manitoba, and the Northwest Territories. Meanwhile, **Plains Buffalo** (*Bison bison athabascae*) is listed as 'Special Concern' and are not protected under the Species at Risk Act (SARA) in Canada. They are only classified as 'wildlife' in British Columbia and Saskatchewan and as 'livestock' in Alberta and Manitoba. 
 
 The Wood Buffalo is larger compared to the Plains Buffalo. 
+
+<center> **Male Buffalo Comparison** </center>
+
+| Wood                                                           | Plains                                     |
+| -------------------------------------------------------------- | ------------------------------------------ |
+| bigger in size                                                 | smaller in size                            |
+| pointy hump                                                    | round hump                                 |
+| skinny, pointed beard (kind of looking like a goatee)          | fluffy beard (think of a lumberjack beard) |
+| longer, flowy head hair (looks like they are wearing a toupee) | short, thick, woolly-like head hair        |
+| longer, thicker tail                                           | shorter, thinner tail                      |
+
+</br>
 
 <div style="text-align: center;">
 <img src="images/cosewic_2014_bison_report_figure1.png" width="50%" style="margin-right: 20px;">
@@ -94,9 +106,19 @@ The Wood Buffalo is larger compared to the Plains Buffalo.
 
 Bison used to roam North America in the tens of millions.
 
-<div style="text-align: center;">
+<div style="display: flex; justify-content: center;">
+<!-- left image -->
+<figure>
 <img src="images/cosewic_2014_bison_report_figure4.png" width="80%"/>
-<p> Pre-colonization distribution of Buffalo in North America. [COSEWIC 2014, p. 12, figure 4](https://publications.gc.ca/collections/collection_2014/ec/CW69-14-379-2014-eng.pdf) <p>
+<figcaption>Pre-colonization distribution of Buffalo in North America. [COSEWIC 2014, p. 12, figure 4](https://publications.gc.ca/collections/collection_2014/ec/CW69-14-379-2014-eng.pdf)</figcaption>
+</figure>
+<!-- right image -->
+<iframe width="315" height="560"
+        src="https://www.youtube.com/embed/8aYRobTyjoo"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+</iframe> </div> </br>
 </div></br>
 
 </br>
@@ -142,16 +164,14 @@ The Plains Bison was completely lost in Canada until a herd (Elk Island herd) wa
 <p> Buffalo Hunt, Chase, 1844, hand-coloured lithograph by George Catlin. [Minneapolis Institute of Art](https://collections.artsmia.org/art/7686/buffalo-hunt-george-catlin)</p>
 </div></br>
 
-Since time immemorial, Indigenous communities across North America have relied on wildlife to support their ways of life. Regionally abundant species that are fundamental to communities' diets, materials, medicine, art, and spiritual practices have been referred to as Cultural Keystone Species (CKS) [(Garibaldi & Turner, 2004)](https://dx.doi.org/10.5751/ES-00669-090301).
-
-The loss of Buffalo has impacted Indigenous food sovereignty and these communities' cultural practices, language, and knowledge transmission [(Lamb et al., 2023)](https://www.science.org/doi/10.1126/science.adg9830). As conservation values, ethics, and initiatives started to recognize the importance of Buffalo on the landscape, we also witnessed the significance of National Parks in the species conservation story. 
+Since time immemorial, Indigenous communities across North America have relied on wildlife to support their ways of life. Regionally abundant species that are fundamental to communities' diets, materials, medicine, art, and spiritual practices have been referred to as Cultural Keystone Species (CKS) [(Garibaldi & Turner, 2004)](https://dx.doi.org/10.5751/ES-00669-090301). The loss of Buffalo has impacted Indigenous food sovereignty and these communities' cultural practices, language, and knowledge transmission [(Lamb et al., 2023)](https://www.science.org/doi/10.1126/science.adg9830). As conservation values, ethics, and initiatives started to recognize the importance of Buffalo on the landscape, we also witnessed the significance of National Parks in the species conservation story. 
 
 </br>
 </br>
 
 <center> <h1 style="display: none;"><span id="project"></span> Project </h1> </center> <!-- navigation header -->
 
-<center> <h1>  <span id="cultural-hunting"></span> **Restoring Cultural Meaningful Hunting of Buffalo in National Parks** </h1> </center> 
+<center> <h1>  <span id="cultural-hunting"></span> **Restoring Cultural Meaningful Hunting of Buffalo in National Parks** </h1> </center>  
 
 </br>
 
@@ -173,49 +193,42 @@ These parks have played a pivotal role in Bison conservation [(Boyd & Gates, 200
 [Waterton Lakes National Park, AB](https://parks.canada.ca/pn-np/ab/waterton/nature/faune-wildlife/bison);
 [Prince Albert National Park, SK](https://parks.canada.ca/pn-np/sk/princealbert/nature/bisons);
 [Grasslands National Park, SK](https://parks.canada.ca/pn-np/sk/grasslands/nature/faune-wildlife/bison);
-[Riding Mountain National Park, MB](https://parks.canada.ca/pn-np/mb/riding/nature/animals/mammals/bison))</p>
+[Riding Mountain National Park, MB](https://parks.canada.ca/pn-np/mb/riding/nature/animals/mammals/bison)) with Banff National Park being the most recent reintroduction. </p>
 </div></br>
 
 In some cases, such as Banff National Park, these reintroductions have espoused reconciliation as an underlying motivation to 'bring back the bison'. 
 At the same time, Canada's national park agencies participate in the systematic removal and exclusion of Indigenous communities from their traditional territories and practices (Vranich, 2023), thus severing their connection to the land and impacting generations of Indigenous people in the process. Historic parks and protected areas legislation was rooted in colonial beliefs that fundamentally separated people from the land, reinforcing the outdated ideas of pristine wilderness or fortress conservation. 
 
+The federal government has committed to reconciliation with Indigenous Peoples through renewed, nation-to-nation and government-to-government relationships based on the recognition of rights, respect, co-operation and partnership [(Government of Canada)](https://www.rcaanc-cirnac.gc.ca/eng/1400782178444/1529183710887). Parks Canada's new policy on Indigenous Stewardship, [The Buffalo Treaty](https://www.buffalotreaty.com/treaty), and the implementation of the Declaration on the Rights of Indigenous People in Canada could shift current management of wildlife and National Parks through the recognition of treaty rights towards a more rights-based approach and a more Indigenized model of wildlife conservation [(Hessami et al., 2021)](https://www.facetsjournal.com/doi/10.1139/facets-2020-0088). 
+
 </br>
 
 <center> <h1> **Braiding Traditional Ecology knowledge and Western Science** </h1> </center>
 
+A way that Traditional Ecological Knowledge (TEK) can be defined as, "*a cumulative body of knowledge, practice, and belief, evolving by adaptive processes and handed down through generations by cultural transmission, about the relationship of living beings (including humans) with one another and with their environment*" [(Berkes, 2008)](https://www.taylorfrancis.com/books/mono/10.4324/9780203928950/sacred-ecology-fikret-berkes-fikret-berkes). It is also described as a 'way of life', and 'ways of knowing'. But it more than knowledge because it in encompasses spiritual experience and relationships with the land [(Berkes, 2008)](https://www.taylorfrancis.com/books/mono/10.4324/9780203928950/sacred-ecology-fikret-berkes-fikret-berkes). </br>
+
 <div style="text-align: center;">
 <img src="images/tek_ws_diagram.png" width="80%">
 </div></br>
-<!-- <p> Buffalos Hunting [Toronto Public Library Special Collections](https://www.flickr.com/photos/43021516@N06/7420476946)</p> -->
-<!-- </div></br> -->
+
+
+TEK is passed down through generations and in a sense cannot be quantified. The need to record and quantify TEK is a Western Science approach and very much rooted in the 'Western-esque' perspective of extraction and assimilation. Similar to Western Science, not all traditional practices are appropriate. However, they are incorporated into policy and legislation often without the guidance of Indigenous People in which they got it from. Reconciliation between research institutions and Indigenous communities addresses years of colonial practices that were extractive in nature, where sacred knowledge was published without the consent of communities and relabeled as a "new" scientific discovery. 
+
 
 
 <!-- 
+In contemporary wildlife literature, an emerging Indigenous research paradigm emphasizes braiding of Traditional Ecological Knowledge with western science (Wilson 2008, Lamb et al., 2023, Hessami et al, 2021); recognition of Indigenous Food Sovereignty to community health (Ray et al., 2019); and how co-governance of wildlife resource is essential to Indigenizing the North American model of Wildlife Conservation (Hessami et al., 2021). TEK research highlights the interconnected ecological relationships between people, wildlife, plants, and land stewardship practices such as hunting and cultural fire all influence ecological patterns across the landscape (Nelson & Shilling, 2018; Goode et al., 2022). In this context, reconciliation requires exploring opportunities for data sovereignty and building relationships based on mutual respect and reciprocity so that both Indigenous communities and scientists benefit from publicly funded research (McGregor, 2017). 
 
 
-The federal government has committed to reconciliation with Indigenous Peoples through renewed, nation-to-nation and government-to-government relationships based on the recognition of rights, respect, co-operation and partnership (GoC; CIRNAC, 2024). However, reconciliation requires more than rebalancing the relationship between Indigenous and Non-indigenous people across Canada it also requires a shift in governing power structures and decision-making processes which decides what knowledge is recognized as valid (Nadasdy 2003). A change could be on the horizon; Parks Canada's new policy on Indigenous Stewardship, The Buffalo Treaty and the implementation of the Declaration on the Rights of Indigenous People in Canada could shift current management of wildlife and National Parks through the recognition of treaty rights towards a more rights-based approach and a more Indigenized model of wildlife conservation (Hessami et al., 2021). 
+However, reconciliation requires more than rebalancing the relationship between Indigenous and Non-indigenous people across Canada it also requires a shift in governing power structures and decision-making processes which decides what knowledge is recognized as valid (Nadasdy 2003).
 
-</br>
-
-
-In contemporary wildlife literature, an emerging Indigenous research paradigm emphasizes braiding of Traditional Ecological Knowledge with western science (Wilson 2008, Lamb et al., 2023, Hessami et al, 2021); recognition of Indigenous Food Sovereignty to community health (Ray et al., 2019); and how co-governance of wildlife resource is essential to Indigenizing the North American model of Wildlife Conservation (Hessami et al., 2021). 
-
-TEK research highlights the interconnected ecological relationships between people, wildlife, plants, and land stewardship practices such as hunting and cultural fire all influence ecological patterns across the landscape (Nelson & Shilling, 2018; Goode et al., 2022). 
 Discussions on food sovereignty underscore the health benefits of traditional foods, the sustainability of wildlife populations, and the importance of Indigenous-led stewardship and community involvement (Abdul et al., 2024). 
 
 Meanwhile, cooperative management approaches, such as Parks Canada Advisory Circles and Indigenous Guardians programs, are increasingly recognized as essential tools for reconciliation, self-determination, and collaborative conservation efforts across Canada. 
 
 <center> <h1> **Braiding Traditional Ecology knowledge and Western Science** </h1> </center>
-
-
-
-
-
-
-
-
 While reconciliation is a focus for the Canadian government, it should also be at the forefront of the minds of natural resource researchers in academia (Wong et al., 2020). 
-Reconciliation between research institutions and Indigenous communities addresses years of colonial practices that were extractive in nature, where sacred knowledge was published without the consent of communities and relabeled as a "new" scientific discovery. 
+
 
 In this context, reconciliation requires exploring opportunities for data sovereignty and building relationships based on mutual respect and reciprocity so that both Indigenous communities and scientists benefit from publicly funded research (McGregor, 2017). 
 
