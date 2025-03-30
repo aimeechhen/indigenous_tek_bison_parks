@@ -48,7 +48,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 <span> 
-<center> **‘Buffalo’ is a species of cultural significance and non-human relative to many Indigenous Nations. It is capitalized to represent its status and imporatance.** </center> \
+<center> **'Buffalo' is a species of cultural significance and non-human relative to many Indigenous Nations. It is capitalized to represent its status and imporatance.** </center> \
 <center> *"We see Buffalo and many of our four-legged relatives as equals."* -Remington Bracher </center> 
 </span></br>
 
@@ -67,13 +67,11 @@ Bison are commonly known as Buffalo. Bison and Buffalo are the same animal. The 
 
 Currently, **Wood Buffalo** (*Bison bison bison*) is listed as Threatened and classified as 'wildlife' only in British Columbia, Alberta, Manitoba, and the Northwest Territories. Meanwhile, **Plains Buffalo** (*Bison bison athabascae*) is listed as 'Special Concern' and are not protected under the Species at Risk Act (SARA) in Canada. They are only classified as 'wildlife' in British Columbia and Saskatchewan and as 'livestock' in Alberta and Manitoba. 
 
-The Wood Buffalo is larger compared to the Plains Buffalo. 
-
 <center> **Male Buffalo Comparison** </center>
 
 | Wood                                                           | Plains                                     |
 | -------------------------------------------------------------- | ------------------------------------------ |
-| bigger in size                                                 | smaller in size                            |
+| larger in size                                                 | smaller in size                            |
 | pointy hump                                                    | round hump                                 |
 | skinny, pointed beard (kind of looking like a goatee)          | fluffy beard (think of a lumberjack beard) |
 | longer, flowy head hair (looks like they are wearing a toupee) | short, thick, woolly-like head hair        |
@@ -109,18 +107,25 @@ Bison used to roam North America in the tens of millions.
 <div style="display: flex; justify-content: center;">
 <!-- left image -->
 <figure>
-<img src="images/cosewic_2014_bison_report_figure4.png" width="80%"/>
+<img src="images/cosewic_2014_bison_report_figure4.png"/>
 <figcaption>Pre-colonization distribution of Buffalo in North America. [COSEWIC 2014, p. 12, figure 4](https://publications.gc.ca/collections/collection_2014/ec/CW69-14-379-2014-eng.pdf)</figcaption>
 </figure>
 <!-- right image -->
-<iframe width="315" height="560"
-        src="https://www.youtube.com/embed/8aYRobTyjoo"
+<iframe src="https://www.youtube.com/embed/8aYRobTyjoo"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
 </iframe> </div> </br>
-</div></br>
+</div>
 
+
+<center> 
+*"Kill every buffalo you can! Every buffalo dead is an Indian gone."* -Lieutenant Colonel Dodge [(Butler 1913)](https://babel.hathitrust.org/cgi/pt?id=hvd.hn5kck&seq=11)
+ </center> \
+
+
+<center> *"With my cavalry and carbined artillery encamped in the front, I wanted no other occupation in life than to ward off the savage and kill off his food until there should no longer be an Indian frontier in our beautiful country"* \
+-Lieutenant-General John M. Schofield [(Schofield 1897)](http://catalog.hathitrust.org/Record/000603669) </center> </br>
 </br>
 
 <div style="text-align: center;">
@@ -128,28 +133,8 @@ Bison used to roam North America in the tens of millions.
 <p> Photographer unknown (1892). Pile of American Bison skulls waiting to be ground for fertilizer. [Wikimedia Commons](https://en.wikipedia.org/wiki/File:Bison_skull_pile-restored.jpg) <p>
 </div> </br>
 
-<center> 
-*"Kill every buffalo you can! Every buffalo dead is an Indian gone."* -Lieutenant Colonel Dodge [(Butler 1913)](https://babel.hathitrust.org/cgi/pt?id=hvd.hn5kck&seq=11)
- </center> \
 
-<!-- 
-The near extinction of the American Bison was a way to resolve the "Indian Problem" by the US government. 
--->
 
-<center> *"With my cavalry and carbined artillery encamped in the front, I wanted no other occupation in life than to ward off the savage and kill off his food until there should no longer be an Indian frontier in our beautiful country"* \
--Lieutenant-General John M. Schofield [(Schofield 1897)](http://catalog.hathitrust.org/Record/000603669) </center> </br>
-</br>
-
-<center> <h1> **Reintroduction Program** </h1> </center>
-
-The Plains Bison was completely lost in Canada until a herd (Elk Island herd) was brought from Montana. This was regarded as one of the biggest conservation initiative that Canada has ever done. It started from 34 individuals. The most recent one was the [Banff National Park Bison Reintroduction Program](https://publications.gc.ca/collections/collection_2020/pc/R64-568-2019-eng.pdf). In 2017, 16 Plains Buffalo was brought to Banff National Park. As of 2024, there are over 130 individuals roaming the park. For more information about the Banff Buffalos, check out the [Parks Canada Bison blog](https://parks.canada.ca/pn-np/ab/banff/info/gestion-management/bison/blog). For information about the Reintroduction Pilot Program, take a look at the [Government of Canada Report](https://parks.canada.ca/pn-np/ab/banff/info/gestion-management/bison/rapport-mai-reintroduction-may-report). 
-
-</br>
-<img src="images/Stroupe_et_al_2022_figure1.png"/>
-<p> Buffalo historical lineages [(Stroupe et al. 2022)](https://www.nature.com/articles/s41598-022-09828-z#Sec2) <p>
-
-</br>
-</br>
 
 <center> <h2> **Why Buffalo?** </h2> </center>
 
@@ -159,19 +144,44 @@ The Plains Bison was completely lost in Canada until a herd (Elk Island herd) wa
 
 </br>
 
-<div style="text-align: center;">
-<img src="images/buffalo_chase.jpg" width="80%">
-<p> Buffalo Hunt, Chase, 1844, hand-coloured lithograph by George Catlin. [Minneapolis Institute of Art](https://collections.artsmia.org/art/7686/buffalo-hunt-george-catlin)</p>
-</div></br>
 
-Since time immemorial, Indigenous communities across North America have relied on wildlife to support their ways of life. Regionally abundant species that are fundamental to communities' diets, materials, medicine, art, and spiritual practices have been referred to as Cultural Keystone Species (CKS) [(Garibaldi & Turner, 2004)](https://dx.doi.org/10.5751/ES-00669-090301). The loss of Buffalo has impacted Indigenous food sovereignty and these communities' cultural practices, language, and knowledge transmission [(Lamb et al., 2023)](https://www.science.org/doi/10.1126/science.adg9830). As conservation values, ethics, and initiatives started to recognize the importance of Buffalo on the landscape, we also witnessed the significance of National Parks in the species conservation story. 
+<div style="display: flex; justify-content: center;">
+<!-- left image -->
+<figure>
+<img src="images/buffalo_chase.jpg">
+<figcaption>Buffalo Hunt, Chase, 1844, hand-coloured lithograph by George Catlin. [Minneapolis Institute of Art](https://collections.artsmia.org/art/7686/buffalo-hunt-george-catlin)</figcaption>
+</figure>
+<!-- right image -->
+<iframe src="https://www.youtube.com/embed/ZqoMKBNZk3U"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+</iframe> </div> </br>
+
+Since time immemorial, Indigenous communities across North America have relied on wildlife to support their ways of life. Regionally abundant species that are fundamental to communities' diets, materials, medicine, art, and spiritual practices have been referred to as Cultural Keystone Species (CKS) [(Garibaldi & Turner, 2004)](https://dx.doi.org/10.5751/ES-00669-090301). The loss of Buffalo has impacted Indigenous food sovereignty and these communities' cultural practices, language, and knowledge transmission.
+
+</br>
+
+<center> <h1> **Reintroduction Program** </h1> </center>
+
+As conservation values, ethics, and initiatives started to recognize the importance of Buffalo on the landscape, we also witnessed the significance of National Parks in the species conservation story. The Plains Bison was completely lost in Canada until a herd (Elk Island herd) was brought from Montana. This was regarded as one of the biggest conservation initiative that Canada has ever done. It started from 34 individuals. The most recent one was the [Banff National Park Bison Reintroduction Program](https://publications.gc.ca/collections/collection_2020/pc/R64-568-2019-eng.pdf). In 2017, 16 Plains Buffalo was brought to Banff National Park. As of 2024, there are over 130 individuals roaming the park. For more information about the Banff Buffalos, check out the [Parks Canada Bison blog](https://parks.canada.ca/pn-np/ab/banff/info/gestion-management/bison/blog). For information about the Reintroduction Pilot Program, take a look at the [Government of Canada Report](https://parks.canada.ca/pn-np/ab/banff/info/gestion-management/bison/rapport-mai-reintroduction-may-report). 
+
+</br>
+<img src="images/Stroupe_et_al_2022_figure1.png"/>
+<p> Buffalo historical lineages [(Stroupe et al. 2022)](https://www.nature.com/articles/s41598-022-09828-z#Sec2) <p>
 
 </br>
 </br>
+
+
 
 <center> <h1 style="display: none;"><span id="project"></span> Project </h1> </center> <!-- navigation header -->
 
 <center> <h1>  <span id="cultural-hunting"></span> **Restoring Cultural Meaningful Hunting of Buffalo in National Parks** </h1> </center>  
+
+</br>
+
+The federal government has committed to reconciliation with Indigenous Peoples through renewed, nation-to-nation and government-to-government relationships based on the recognition of rights, respect, co-operation and partnership [(Government of Canada)](https://www.rcaanc-cirnac.gc.ca/eng/1400782178444/1529183710887). Parks Canada's new policy on Indigenous Stewardship, [The Buffalo Treaty](https://www.buffalotreaty.com/treaty), and the implementation of the Declaration on the Rights of Indigenous People in Canada could shift current management of wildlife and National Parks through the recognition of treaty rights towards a more rights-based approach and a more Indigenized model of wildlife conservation [(Hessami et al., 2021)](https://www.facetsjournal.com/doi/10.1139/facets-2020-0088). 
 
 </br>
 
@@ -197,15 +207,13 @@ These parks have played a pivotal role in Bison conservation [(Boyd & Gates, 200
 </div></br>
 
 In some cases, such as Banff National Park, these reintroductions have espoused reconciliation as an underlying motivation to 'bring back the bison'. 
-At the same time, Canada's national park agencies participate in the systematic removal and exclusion of Indigenous communities from their traditional territories and practices (Vranich, 2023), thus severing their connection to the land and impacting generations of Indigenous people in the process. Historic parks and protected areas legislation was rooted in colonial beliefs that fundamentally separated people from the land, reinforcing the outdated ideas of pristine wilderness or fortress conservation. 
-
-The federal government has committed to reconciliation with Indigenous Peoples through renewed, nation-to-nation and government-to-government relationships based on the recognition of rights, respect, co-operation and partnership [(Government of Canada)](https://www.rcaanc-cirnac.gc.ca/eng/1400782178444/1529183710887). Parks Canada's new policy on Indigenous Stewardship, [The Buffalo Treaty](https://www.buffalotreaty.com/treaty), and the implementation of the Declaration on the Rights of Indigenous People in Canada could shift current management of wildlife and National Parks through the recognition of treaty rights towards a more rights-based approach and a more Indigenized model of wildlife conservation [(Hessami et al., 2021)](https://www.facetsjournal.com/doi/10.1139/facets-2020-0088). 
+At the same time, Canada's national park agencies participate in the systematic removal and exclusion of Indigenous communities from their traditional territories and practices [(Vranich, 2023)](https://www.proquest.com/docview/2812786619?pq-origsite=gscholar&fromopenview=true&sourcetype=Magazines), thus severing their connection to the land and impacting generations of Indigenous people in the process. Historic parks and protected areas legislation was rooted in colonial beliefs that fundamentally separated people from the land, reinforcing the outdated ideas of pristine wilderness or fortress conservation. 
 
 </br>
 
 <center> <h1> **Braiding Traditional Ecology knowledge and Western Science** </h1> </center>
 
-A way that Traditional Ecological Knowledge (TEK) can be defined as, "*a cumulative body of knowledge, practice, and belief, evolving by adaptive processes and handed down through generations by cultural transmission, about the relationship of living beings (including humans) with one another and with their environment*" [(Berkes, 2008)](https://www.taylorfrancis.com/books/mono/10.4324/9780203928950/sacred-ecology-fikret-berkes-fikret-berkes). It is also described as a 'way of life', and 'ways of knowing'. But it more than knowledge because it in encompasses spiritual experience and relationships with the land [(Berkes, 2008)](https://www.taylorfrancis.com/books/mono/10.4324/9780203928950/sacred-ecology-fikret-berkes-fikret-berkes). </br>
+A way that Traditional Ecological Knowledge (TEK) can be defined is as, "*a cumulative body of knowledge, practice, and belief, evolving by adaptive processes and handed down through generations by cultural transmission, about the relationship of living beings (including humans) with one another and with their environment*" [(Berkes, 2008)](https://www.taylorfrancis.com/books/mono/10.4324/9780203928950/sacred-ecology-fikret-berkes-fikret-berkes). It is also described as a 'way of life', and 'ways of knowing'. But it is more than knowledge because it encompasses spiritual experience and relationships with the land [(Berkes, 2008)](https://www.taylorfrancis.com/books/mono/10.4324/9780203928950/sacred-ecology-fikret-berkes-fikret-berkes). </br>
 
 <div style="text-align: center;">
 <img src="images/tek_ws_diagram.png" width="80%">
