@@ -173,23 +173,6 @@ As conservation values, ethics, and initiatives started to recognize the importa
 </br>
 </br>
 
-
-
-<center> <h1 style="display: none;"><span id="project"></span> Project </h1> </center> <!-- navigation header -->
-
-<center> <h1>  <span id="cultural-hunting"></span> **Restoring Cultural Meaningful Hunting of Buffalo in National Parks** </h1> </center>  
-
-</br>
-
-The federal government has committed to reconciliation with Indigenous Peoples through renewed, nation-to-nation and government-to-government relationships based on the recognition of rights, respect, co-operation and partnership [(Government of Canada)](https://www.rcaanc-cirnac.gc.ca/eng/1400782178444/1529183710887). Parks Canada's new policy on Indigenous Stewardship, [The Buffalo Treaty](https://www.buffalotreaty.com/treaty), and the implementation of the Declaration on the Rights of Indigenous People in Canada could shift current management of wildlife and National Parks through the recognition of treaty rights towards a more rights-based approach and a more Indigenized model of wildlife conservation [(Hessami et al., 2021)](https://www.facetsjournal.com/doi/10.1139/facets-2020-0088). 
-
-</br>
-
-<div style="text-align: center;">
-<img src="images/buffaloe_hunting_1844_toronto_public_library.jpg" width="80%">
-<p> Buffalos Hunting, colour lithograph by George Catlin, 1844. [Toronto Public Library Special Collections](https://www.flickr.com/photos/43021516@N06/7420476946)</p>
-</div></br>
-
 These parks have played a pivotal role in Bison conservation [(Boyd & Gates, 2004)](https://www.buffalofieldcampaign.org/images/get-involved/students-resource-about-bison/bison-conservation-papers/Boyd-and-Gates-A-Brief-Review-of-the-Status-of-Plains-Bison-in-North-America-Spring-2006.pdf) and have now reintroduced Bison in [seven national parks](https://parks.canada.ca/nature/science/autochtones-indigenous/bison) across western Canada. 
 
 </br>
@@ -206,10 +189,43 @@ These parks have played a pivotal role in Bison conservation [(Boyd & Gates, 200
 [Riding Mountain National Park, MB](https://parks.canada.ca/pn-np/mb/riding/nature/animals/mammals/bison)) with Banff National Park being the most recent reintroduction. </p>
 </div></br>
 
+
+<center> <h1> </span> **Reconciliation** </h1> </center>  
+
 In some cases, such as Banff National Park, these reintroductions have espoused reconciliation as an underlying motivation to 'bring back the bison'. 
 At the same time, Canada's national park agencies participate in the systematic removal and exclusion of Indigenous communities from their traditional territories and practices [(Vranich, 2023)](https://www.proquest.com/docview/2812786619?pq-origsite=gscholar&fromopenview=true&sourcetype=Magazines), thus severing their connection to the land and impacting generations of Indigenous people in the process. Historic parks and protected areas legislation was rooted in colonial beliefs that fundamentally separated people from the land, reinforcing the outdated ideas of pristine wilderness or fortress conservation. 
 
 </br>
+
+<div style="text-align: center;">
+  <iframe width="315" height="560" 
+          src="https://www.youtube.com/embed/vBtA8C1xWYw" 
+          frameborder="0" 
+          allowfullscreen>
+  </iframe>
+</div>
+
+</br>
+
+The federal government has committed to reconciliation with Indigenous Peoples through renewed, nation-to-nation and government-to-government relationships based on the recognition of rights, respect, co-operation and partnership [(Government of Canada)](https://www.rcaanc-cirnac.gc.ca/eng/1400782178444/1529183710887). Parks Canada's new policy on Indigenous Stewardship, [The Buffalo Treaty](https://www.buffalotreaty.com/treaty), and the implementation of the Declaration on the Rights of Indigenous People in Canada could shift current management of wildlife and National Parks through the recognition of treaty rights towards a more rights-based approach and a more Indigenized model of wildlife conservation [(Hessami et al., 2021)](https://www.facetsjournal.com/doi/10.1139/facets-2020-0088).
+
+<!-- An Indigenized approach is decolonizing the notion of conservation and wildlife management and moving towards a wildlife stewardship perspective. -->
+
+
+</br>
+
+<!-- <center> <h1 style="display: none;"><span id="project"></span> Project </h1> </center> <!-- navigation header -->
+
+<!-- <center> <h1>  <span id="cultural-hunting"></span> **Restoring Cultural Meaningful Hunting of Buffalo in National Parks** </h1> </center>   -->
+
+<!-- </br> -->
+
+
+<!-- <div style="text-align: center;"> -->
+<!-- <img src="images/buffaloe_hunting_1844_toronto_public_library.jpg" width="80%"> -->
+<!-- <p> Buffalos Hunting, colour lithograph by George Catlin, 1844. [Toronto Public Library Special Collections](https://www.flickr.com/photos/43021516@N06/7420476946)</p> -->
+<!-- </div></br> -->
+
 
 <center> <h1> **Braiding Traditional Ecology knowledge and Western Science** </h1> </center>
 
