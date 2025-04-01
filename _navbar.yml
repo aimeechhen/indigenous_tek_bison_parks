@@ -3,10 +3,10 @@ title: ""
 left:
   - text: "Home"
     href: "#home"
-  - text: "Project"
-    menu:
-       - text: "Restoring Cultural Meaningful Hunting of Buffalo in National Parks"
-         href: "#cultural-hunting"
+  # - text: "Project"
+  #   menu:
+  #      - text: "Restoring Cultural Meaningful Hunting of Buffalo in National Parks"
+  #        href: "#cultural-hunting"
   #      - text: "Traditional ecological knowledge (TEK)"
   #        href: ./project2.html
   #      - text: "Buffalo restoration"
